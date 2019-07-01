@@ -11,7 +11,7 @@ def loop(nloop,nsec):
 
 loops = [400000000,400000000]
 def main():
-    print("Start at:",ctime())
+    print("All down at:",ctime())
 
     threads = []
     nloops = range(len(loops))
